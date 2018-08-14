@@ -1,0 +1,6 @@
+//注意：未经允许的情况下，请勿修改此文件	列之间的分割符是制表符，请勿替换为空格
+数据库ip	sql2012agl01.luxshare.com.cn
+数据库名称：	HTPSDB
+表名：	vproject
+用户名：	htpsuser
+密码	htps'songyy

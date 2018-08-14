@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ParameterList> 
+  <PartNoWithFullXml> 
+    <!-- 华为完整XML上传料号设置 -->  
+    <PartNo1>L99SF001-SD-H</PartNo1>  
+    <PartNo2>L99SF003-SD-H</PartNo2> 
+  </PartNoWithFullXml>  
+  <UploadPara> 
+    <!-- 上传参数设置 -->  
+    <NetCmdHW>net use \\172.20.20.86 Luxshare-ict /user:C040345</NetCmdHW>  
+    <NetPathHW>\\172.20.20.86\HuaweiData\DataRoot\XML</NetPathHW>  
+    <NetCmdCompress>net use \\172.20.20.113 mesuser /user:mesuser</NetCmdCompress>  
+    <NetPathCompress1>\\172.20.20.113\emc\HPTS\VNA</NetPathCompress1>  
+    <NetPathCompress2>\\172.20.20.113\emc\HPTS\SI</NetPathCompress2>  
+    <AlarmDisplay>true</AlarmDisplay> 
+  </UploadPara>  
+  <LastPartNo> 
+    <!-- 上次P/N,MO参数保存 -->  
+    <PN>L99SF024-SD-R</PN>  
+    <Mo>E511D-160600285</Mo> 
+  </LastPartNo>  
+  <SystemList> 
+    <!-- 测试机台编号列表，本台机编号 -->  
+    <CurrentNO Name="GPF001" Switch="6509" Equipment="E5071C"></CurrentNO>  
+	<NO Name="A" Switch="A" Equipment="E"></NO>  
+    <NO Name="GPF001" Switch="6509" Equipment="E5071C"></NO>  
+    <NO Name="GPF002" Switch="-" Equipment="-"></NO>  
+    <NO Name="GPF003" Switch="-" Equipment="-"></NO>  
+    <NO Name="GPF004" Switch="6509" Equipment="DSA8300"></NO>  
+    <NO Name="GPF005" Switch="6509" Equipment="DSA8300"></NO>
+	<NO Name="GPF006" Switch="MCU" Equipment="NO5230C"></NO>  
+   
+  </SystemList>  
+  <OtherPara> 
+    <!-- 其他杂项参数添加在此处-->  
+    <!-- ConvertStyle：SN流水和日期转换方式。false：默认labview内部转换。true：webservice方式转换-->  
+    <ConvertStyle>false</ConvertStyle> 
+  </OtherPara> 
+</ParameterList>

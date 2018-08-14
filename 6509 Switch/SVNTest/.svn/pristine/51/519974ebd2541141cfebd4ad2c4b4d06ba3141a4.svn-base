@@ -1,0 +1,10 @@
+QSFP+	0	4		
+Length	1			146
+VendorName	1			148
+PN	1			168
+VendorSN	1			196
+Date	1			212
+CC_BASE	1	128	190	191
+CC_EXT	1	192	222	223
+0	0	10	11	
+E2	17	82	25	

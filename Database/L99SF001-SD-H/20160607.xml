@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestSN>
+    <PassedSN />
+    <FailedSN>
+        <SN Date="2016/6/7 10:50:21" Value="1904050897-Z00A2R1624S205008" />
+        <SN Date="2016/6/7 10:53:20" Value="1904050897-Z00A2R1624S205009" />
+        <SN Date="2016/6/7 11:02:29" Value="1904050897-Z00A2R1624S205010" />
+        <SN Date="2016/6/7 11:06:55" Value="1904050897-Z00A2R1624S205011" />
+        <SN Date="2016/6/7 13:58:34" Value="1904050897-Z00A2R1624S205012" />
+    </FailedSN>
+</TestSN>

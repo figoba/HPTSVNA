@@ -1,0 +1,37 @@
+[项目窗口数据(_D)]
+ProjectExplorer.ClassicPosition[String] = "138,436,635,1303"
+
+[AB_Cache_{BC5CA448-FE04-4AF2-A10A-95F745FA19B5}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "bc820bff91307d888e8b01eafaae748e"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1"
+Cache_GenFile[0][Path] Line0002 = "/Label/应用程序.exe"
+Cache_GenFile[1][Path] Line0001 = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1"
+Cache_GenFile[1][Path] Line0002 = "/Label/应用程序.aliases"
+Cache_GenFile[2][Path] Line0001 = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1"
+Cache_GenFile[2][Path] Line0002 = "/Label/应用程序.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{D1BB1556-644F-41B5-AF6E-2E1A652202EE}"
+Cache_GenGUID[1][String] = "{7B871919-0A6B-477B-94CD-005AB0C9FD80}"
+Cache_GenGUID[2][String] = "{509BD63A-B04F-4377-9C7A-56DA94AAEA49}"
+Cache_OutputDir[Path] = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1/Label"
+
+[AB_Cache_{8010E942-2A0B-4B8E-BBB2-EF35E8C46920}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "bc820bff91307d888e8b01eafaae748e"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1"
+Cache_GenFile[0][Path] Line0002 = "/Label/应用程序.exe"
+Cache_GenFile[1][Path] Line0001 = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1"
+Cache_GenFile[1][Path] Line0002 = "/Label/应用程序.aliases"
+Cache_GenFile[2][Path] Line0001 = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1"
+Cache_GenFile[2][Path] Line0002 = "/Label/应用程序.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{D1BB1556-644F-41B5-AF6E-2E1A652202EE}"
+Cache_GenGUID[1][String] = "{7B871919-0A6B-477B-94CD-005AB0C9FD80}"
+Cache_GenGUID[2][String] = "{509BD63A-B04F-4377-9C7A-56DA94AAEA49}"
+Cache_OutputDir[Path] = "/Z/临时文件/WMG/1. 源程序/2. HPTS_VNA_Rev2.1/Label"
+

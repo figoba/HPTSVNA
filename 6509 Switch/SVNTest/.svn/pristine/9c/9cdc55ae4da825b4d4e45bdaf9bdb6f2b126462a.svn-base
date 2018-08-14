@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AutoUpdater>
+  <description>HousePro AutoUpdate</description>
+  <Updater>
+    <Url>http://xt-rd-012/VNA_fb/</Url>
+    <LastUpdateTime>2010-01-18</LastUpdateTime>
+  </Updater>
+  <Application applicationId="AutoUpdate">
+    <EntryPoint>VNA Automatic Test Tool.exe</EntryPoint>
+    <Location>.</Location>
+    <Version>1.0.0.0</Version>
+  </Application>
+  <Files>
+    <File Ver="1.0.3.8" Name="newfile/ReadMe.txt"/>
+    <File Ver="1.0.0.1" Name="newfile/EEPROM文件数据库信息.txt"/>
+    <File Ver="1.0.0.0" Name="newfile/标签配置数据库信息.txt"/>
+    <File Ver="1.0.0.0" Name="newfile/专案管理数据库信息.txt"/>
+    <File Ver="1.0.0.0" Name="newfile/ClassLibrary1.dll"/>
+    <File Ver="1.0.4.2" Name="newfile/VNA Automatic Test Tool.exe"/>
+  </Files>
+</AutoUpdater>

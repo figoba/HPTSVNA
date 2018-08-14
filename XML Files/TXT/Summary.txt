@@ -1,0 +1,40 @@
+Start Test at 周四 上午 09:30:50 2015/11/19 China Time On XT-PC-528.luxshare.com.cn
+P/N:L99SF029-SD-R,  Sample S/N:0004,  Length:3000mm
+The Test Is Performed In Accordance With Related SI Spec
+S-parameter Testing.....
+SDD21_TX1:NG
+SDD11_TX1:OK
+SCD22_TX1:OK
+SCC11_TX1:OK
+SCD21-SDD21_TX1:OK
+TDD11_TX1:OK
+Max 103.51 98.52 
+Min 98.31 97.89 
+TDD22_TX1:OK
+Max 103.95 98.59 
+Min 98.05 98.13 
+SDD21_RX1:NG
+SDD11_RX1:OK
+SCD22_RX1:OK
+SCC11_RX1:OK
+SCD21-SDD21_RX1:OK
+TDD11_RX1:OK
+Max 102.98 98.37 
+Min 97.93 97.88 
+TDD22_RX1:OK
+Max 104.06 98.61 
+Min 98.39 97.93 
+SDD21_Total_Result:Fail
+SDD11_Total_Result:Pass
+SCD22_Total_Result:Pass
+SCC11_Total_Result:Pass
+SCD21-SDD21_Total_Result:Pass
+TDD11_Total_Result:Pass
+TDD22_Total_Result:Pass
+NEXT Testing.....
+NEXT_TX1-RX1:OK
+NEXT_TX2-RX1:OK
+NEXT_Total_Result:Pass
+No Label has been printed!
+This product needn't  to burn EEPROM 
+Ended Test At 周四 上午 09:31:59 2015/11/19 China Time.  Test Time: 68.460000s

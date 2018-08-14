@@ -1,0 +1,9 @@
+Length			146
+VendorName			148
+PN			168
+Vendor SN			196
+Date			212
+CC_BASE	128	190	191
+CC_EXT	192	222	223
+0	0	10	11
+E2	17	82	25

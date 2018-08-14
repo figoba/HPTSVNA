@@ -1,0 +1,256 @@
+F	F	√Ë ˆIdentifier
+0	0	Revision Compliance
+4	4	upper page flat or paged
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	"Propagation dealy unit 10ns"
+1	1	"Propagation dealy unit 10ns"
+38	38	Ext. HD to Ext. HD:38h; Ext. HD to other connecor:30h
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+0	0	
+F	F	Identifier
+0	0	Ext. identifier
+23	23	Connector type
+0	0	10/40G Ethernet compl.
+0	0	SONET compliance
+70	70	SAS/SATA compliance
+0	0	Gigabit Ethernet compliance
+0	0	Fibre Channel Link Length
+0	0	Fibre Channel Tx tech.
+80	80	Fibre Channel trans. Media
+D5	D5	Fibre Channel speed
+0	0	Encoding values
+78	78	Nominal bit rate
+0	0	Ext. rate select
+0	0	Ext. rate select
+0	0	Ext. rate select
+0	0	Ext. rate select
+0	0	Ext. rate select
+1	1	Length in meters
+A0	A0	Device Techonology
+4C	4C	"Bytes 148-163 totally 16 bytes Vendor name"
+55	55	"Bytes 148-163 totally 16 bytes Vendor name"
+58	58	"Bytes 148-163 totally 16 bytes Vendor name"
+53	53	"Bytes 148-163 totally 16 bytes Vendor name"
+48	48	"Bytes 148-163 totally 16 bytes Vendor name"
+41	41	"Bytes 148-163 totally 16 bytes Vendor name"
+52	52	"Bytes 148-163 totally 16 bytes Vendor name"
+45	45	"Bytes 148-163 totally 16 bytes Vendor name"
+2D	2D	"Bytes 148-163 totally 16 bytes Vendor name"
+49	49	"Bytes 148-163 totally 16 bytes Vendor name"
+43	43	"Bytes 148-163 totally 16 bytes Vendor name"
+54	54	"Bytes 148-163 totally 16 bytes Vendor name"
+20	20	"Bytes 148-163 totally 16 bytes Vendor name"
+20	20	"Bytes 148-163 totally 16 bytes Vendor name"
+20	20	"Bytes 148-163 totally 16 bytes Vendor name"
+20	20	"Bytes 148-163 totally 16 bytes Vendor name"
+7	7	Extended Module Code
+3C	3C	Luxshare IEEE ID
+18	18	
+A0	A0	
+4C	4C	"Vendor P/Na 16-byte field."
+30	30	"Vendor P/Na 16-byte field."
+31	31	"Vendor P/Na 17-byte field."
+48	48	"Vendor P/Na 17-byte field."
+45	45	"Vendor P/Na 18-byte field."
+30	30	"Vendor P/Na 18-byte field."
+31	31	"Vendor P/Na 19-byte field."
+38	38	"Vendor P/Na 19-byte field."
+2D	2D	"Vendor P/Na 20-byte field."
+53	53	"Vendor P/Na 20-byte field."
+44	44	"Vendor P/Na 21-byte field."
+2D	2D	"Vendor P/Na 21-byte field."
+52	52	"Vendor P/Na 22-byte field."
+20	20	"Vendor P/Na 22-byte field."
+20	20	"Vendor P/Na 23-byte field."
+20	20	"Vendor P/Na 23-byte field."
+41	41	Vendor Rev
+20	20	SPACE/SP
+3	3	2.5GHZ Attenuation
+4	4	5GHZ Attenuation
+0	0	7GHZ Attenuation
+0	0	12.9GHZ Attenuation
+46	46	Maxium Case Temperature
+*	*	Check code (lower 8 bit of summary of 128-190)
+0	0	Free Side Device: Options
+0	0	Free Side Device: Options
+0	0	Free Side Device: Options
+0	0	Free Side Device: Options
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Vendor SN bytes 196-211"
+*	*	"Data code ASCII code"
+*	*	"Data code ASCII code"
+*	*	"Data code ASCII code"
+*	*	"Data code ASCII code"
+*	*	"Data code ASCII code"
+*	*	"Data code ASCII code"
+0	0	Before 20141204£¨these values are 20h
+0	0	Before 20141204£¨these values are 20h
+0	0	"Diagnostic MonitEnhanced optionsReserved"
+0	0	"Diagnostic MonitEnhanced optionsReserved"
+0	0	"Diagnostic MonitEnhanced optionsReserved"
+*	*	Check code extension lower 8 bit of the summary of bytes 192-222
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific

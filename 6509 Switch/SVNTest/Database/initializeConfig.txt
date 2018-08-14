@@ -1,0 +1,21 @@
+VNA VISA	E5071C
+VNA Model	E5071C
+DAQ Model	NI PCI-6509
+DAQ Device	Dev1
+VISA COM	COM4
+checkBeforeTest	FALSE
+Local Database	FALSE
+Demo	TRUE
+Manual	FALSE
+Crosstalk by Trace	FALSE
+Dem 2X	FALSE
+By Channel?	FALSE
+Print VISA	COM4
+RS232 I2C VISA	COM3
+Data UpLoad	FALSE
+Port Type	1
+Print Mode	EE Print
+Adaptor	LUXSHARE - IIC
+Use Counts	FALSE
+RS232 I2C VISA Counts	COM3
+Fail upload	FALSE

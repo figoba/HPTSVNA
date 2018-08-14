@@ -1,0 +1,19 @@
+VNA VISA	E5071C
+VNA Model	N5224A
+DAQ Model	LX MCU
+DAQ Device	Dev1
+VISA COM	COM5
+checkBeforeTest	FALSE
+Local Database	TRUE
+Demo	TRUE
+Manual	FALSE
+Crosstalk by Trace	FALSE
+Dem 2X	FALSE
+By Channel?	TRUE
+Print VISA	COM3
+RS232 I2C VISA	COM1
+Data UpLoad	FALSE
+Port Type	0
+Print Mode	IT Print
+Adaptor	RS232 - IIC
+Use Counts	FALSE

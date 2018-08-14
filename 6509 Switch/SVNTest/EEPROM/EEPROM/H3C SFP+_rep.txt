@@ -1,0 +1,11 @@
+SFP+	1	4	
+Length	1			18
+VendorName	1			20
+PN	1			40
+VendorRev	1	56	59	
+VendorSN	1			68
+Date	1			84
+CC_BASE	1	0	62	63
+CC_EXT	1	64	94	95
+FF	FF	FF	FF
+61	30	7A	39

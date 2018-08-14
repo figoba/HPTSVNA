@@ -1,0 +1,27 @@
+H3C SFP+	#0 write #A2 #123 B#10 Z#004	#0 read #A3 #000 #128
+	#0 write #A2 #127 V#3	#0 write #A2 #127 B#11 Z004
+	#0 write #A2 #137 V#20	#0 write #A2 #127 V#1
+	#0 write #A2 #127 V#1	#0 read #A3 #128 #128
+	#0 write #A2 #123 B#10 Z#004	#0 read #A1 #0 #128
+	#0 write #A2 #127 V#3	#0 read #A1 #128 #128
+	#0 write #A2 #137 V#20	
+	#0 write #A2 #127 V#1	
+	#0 write #A2 #123 B#11 Z#004	
+	#0 write #A2 #127 V#1	
+	#0 write #A2 #128 B#01 Z#128	
+	#0 write #A2 #001 B#00 Z#001	
+	#0 write #A0 #123 B#10 Z#008	
+H3C QSFP+	#0 write #A0 #00 K#00 Z#128	#0 read #A1 #00 #128
+	#0 write #A0 #7F V#0	#0 read #A1 #80 #128
+	#0 write #A0 #80 K#01 Z#128	#0 write #A0 #7F V#01
+	#0 write #A0 #7F V#1	#0 read #A1 #80 #128
+	#0 write #A0 #80 K#02 Z#128	#0 write #A0 #7F V#02
+	#0 write #A0 #7F V#2	#0 write #A0 #7B K#10 Z#004
+	#0 write #A0 #7B K#10 Z#004	#0 read #A1 #80 #128
+	#0 write #A0 #80 K#03 Z#128	#0 write #A0 #7F V#03
+	#0 write #A0 #7F V#3	#0 read #A1 #80 #128
+	#0 write #A0 #80 K#04 Z#128	#0 write #A0 #7F V#00
+	#0 write #A0 #7F V#0	
+	#0 write #A0 #7B K#11 Z#004	
+H3C QSFP+1	#0 write #A0 #000 B#00 Z#128	
+blank		

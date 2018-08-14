@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<ParameterList>
+    <para extension="*.*" timeout="10" watchpath="d:\test" />
+    <PartNoWithFullXml>
+        <!-- 华为完整XML上传料号设置 -->
+        <!-- type类型： -->
+        <!-- 类型定义					类型识别符 -->
+        <!-- MINI SAS HD 4X		HD4X -->
+        <!-- MINI SAS 4X			SA4X -->
+        <!-- SFP28						SFP2 -->
+        <!-- QSFP28					QSFP -->
+        <!-- SFP+						SFP+ -->
+        <PartNo Name="L99SF001-SD-H" enable="true" type="SFP+" width1="0.6" width2="0.2" />
+        <PartNo Name="L99SF003-SD-H" enable="true" type="SFP+" width1="0.1" width2="0.2" />
+        <PartNo Name="L99SF014-SD-H" enable="true" type="SFP+" width1="0.1" width2="0.2" />
+        <PartNo Name="L99SF028-SD-R" enable="true" type="SFP+" width1="0.1" width2="0.2" />
+        <PartNo Name="L99SS005-SD-R" enable="true" type="SA4X" width1="0.1" width2="0.2" />
+        <PartNo Name="L99ES003-SD-R" enable="true" type="SA4X" width1="0.1" width2="0.2" />
+        <PartNo Name="L99ES004-SD-R" enable="true" type="SA4X" width1="0.1" width2="0.2" />
+        <PartNo Name="L99HE001-SD-R" enable="true" type="HD4X" width1="0.1" width2="0.2" />
+        <PartNo Name="L99HE002-SD-R" enable="true" type="HD4X" width1="0.1" width2="0.2" />
+        <PartNo Name="L99HE003-SD-R" enable="true" type="HD4X" width1="0.1" width2="0.2" />
+        <PartNo Name="L99SF024-SD-R" enable="true" type="SFP2" width1="0.1" width2="0.2" />
+        <PartNo Name="L99SF025-SD-R" enable="true" type="SFP2" width1="0.1" width2="0.2" />
+        <PartNo Name="L99SF026-SD-R" enable="true" type="SFP2" width1="0.1" width2="0.2" />
+        <PartNo Name="L99QF021-SD-R" enable="true" type="QSFP" width1="0.1" width2="0.2" />
+        <PartNo Name="L99QF020-SD-R" enable="true" type="QSFP" width1="0.1" width2="0.2" />
+        <PartNo Name="L99QF023-SD-R" enable="true" type="QSFP" width1="0.1" width2="0.2" />
+        <PartNo Name="L99QF024-SD-R" enable="true" type="QSFP" width1="0.1" width2="0.2" />
+        <PartNo Name="L99QF025-SD-R" enable="true" type="QSFP" width1="0.1" width2="0.2" />
+        <PartNo Name="L99QF034-SD-R" enable="true" type="QSFP" width1="0.1" width2="0.2" />
+    </PartNoWithFullXml>
+    <PartNoWith2X>
+        <!-- ILD15加上夹具料号设置 -->
+        <PartNo Name="AAA" />
+    </PartNoWith2X>
+    <PartNoWithCheckSum PartName="L99SF046-SD-R">
+        <!-- 校验位料号设置 -->
+        <Detail HiLow="TRUE" endbit="105" startbit="96" writebit="106" />
+        <Detail HiLow="FALSE" endbit="105" startbit="96" writebit="107" />
+    </PartNoWithCheckSum>
+    <UploadPara>
+        <!-- 上传参数设置 -->
+        <NetCmdHW>net use \\172.20.20.86 Luxshare-ict /user:C040345</NetCmdHW>
+        <NetPathHW>\\172.20.20.86\HuaweiData\DataRoot\XML</NetPathHW>
+        <NetCmdCompress>net use \\172.20.20.113 mesuser /user:mesuser</NetCmdCompress>
+        <NetPathCompress1>\\172.20.20.113\emc\HPTS\VNA</NetPathCompress1>
+        <NetPathCompress2>\\172.20.20.113\emc\HPTS\SI</NetPathCompress2>
+        <AlarmDisplay>true</AlarmDisplay>
+        <!-- xml生成方式：true，同步，false，异步 -->
+        <Synchronous>false</Synchronous>
+        <!-- 异步方式zip中转路径 -->
+        <NetTemppath>\\172.20.20.113\emc\HPTS\XML\</NetTemppath>
+        <!-- 异步方式zip中转失败存放路径 -->
+        <NetLocalpath>d:\xml\failed</NetLocalpath>
+    </UploadPara>
+    <LastPartNo>
+        <!-- 上次P/N,MO参数保存 -->
+        <PN>FIGO44</PN>
+        <Mo>E511D-170501155</Mo>
+    </LastPartNo>
+    <SystemList>
+        <!-- 测试机台编号列表，本台机编号 -->
+        <CurrentNO Equipment="E5071C" Name="GPF006" Switch="6509" />
+        <NO Equipment="E" Name="A" Switch="A" />
+        <NO Equipment="E5071C" Name="GPF001" Switch="6509" />
+        <NO Equipment="-" Name="GPF002" Switch="-" />
+        <NO Equipment="-" Name="GPF003" Switch="-" />
+        <NO Equipment="DSA8300" Name="GPF004" Switch="6509" />
+        <NO Equipment="DSA8300" Name="GPF005" Switch="6509" />
+        <NO Equipment="NO5230C" Name="GPF006" Switch="MCU" />
+        <NO Equipment="NO5230C" Name="LAB001" Switch="MCU" />
+        <NO Equipment="NO5230C" Name="GPF007" Switch="MCU" />
+    </SystemList>
+    <ReportAdmin>
+        <!-- 取消报告管理员列表 -->
+        <UserList Name="A" PSW="AAA" role="admin" />
+        <UserList Name="B" PSW="PB" role="user" />
+        <UserList Name="C" PSW="CCC" role="admin" />
+    </ReportAdmin>
+    <DBSet>
+        <!-- DB -->
+        <ConnectInfo Server="172.20.23.107" dB="MESDatacenter" pSW="lr32nxWF9oxy15W652fMf/39/f0=" user="sa" />
+        <ConnectInfo Server="172.20.23.107" dB="HTPSDB" pSW="lr32nxWF9oxy15W652fMf/39/f0=" user="sa" />
+        <ConnectPara Timeout="3" />
+    </DBSet>
+    <LineID>
+        <!-- LineID -->
+        <Line Name="XT026" />
+        <Line Name="XT027" />
+        <Line Name="XT028" />
+        <Line Name="other" />
+    </LineID>
+    <AWG>
+        <!-- AWG -->
+        <item value="24" />
+        <item value="26" />
+        <item value="28" />
+        <item value="29" />
+        <item value="30" />
+        <item value="32" />
+        <item value="33" />
+        <item value="34" />
+    </AWG>
+    <TDDConsistency>
+        <!-- TDD一致性参数设定 -->
+        <!-- 超标信息保存路径 -->
+        <SavePath>d:\TDDConsistency</SavePath>
+        <!-- 加工区上下偏幅度 -->
+        <MatingPer>0.8</MatingPer>
+        <!-- 线材区上下偏幅度 -->
+        <CablePer>0.8</CablePer>
+        <!-- 加工区标准差 -->
+        <MatingDeviation>1.3</MatingDeviation>
+        <!-- 线材区标准差 -->
+        <CableDeviation>1.3</CableDeviation>
+        <!-- TDD超规时是否弹出信息框，True：弹出。false：不弹 -->
+        <DisplayAlert>FALSE</DisplayAlert>
+        <!-- 是否开启TDD一致性检查，True：开启。false：关闭 -->
+        <CheckEnable>True</CheckEnable>
+        <!-- 警报颜色 红黄蓝绿黑白紫 -->
+        <AlertColor>蓝</AlertColor>
+    </TDDConsistency>
+    <EEExcludePN>
+        <PartNo Name="DEMO1" />
+        <PartNo Name="SL99SF001-SD-H" />
+    </EEExcludePN>
+    <OtherPara>
+        <!-- 其他杂项参数添加在此处-->
+        <!-- ConvertStyle：SN流水和日期转换方式。false：默认labview内部转换。true：webservice方式转换-->
+        <ConvertStyle>false</ConvertStyle>
+        <!-- LogLevel：log文件记录级别 0,error,1info,2,debug-->
+        <LogLevel>2</LogLevel>
+        <!-- ResultSave：保存测试结果为TXT，为异步生成XML作准备-->
+        <ResultSave>true</ResultSave>
+        <!-- 本地成SN起始值 -->
+        <StartSN>0</StartSN>
+    </OtherPara>
+    <OFFSET>
+        <!--offset:补偿值-->
+        <!--enable:是否开启补偿，True：开启。false：不开启-->
+        <Next enable="TRUE" offset="0" />
+        <SCD21 enable="TRUE" offset="-100" />
+    </OFFSET>
+    <EEUPLOAD>
+        <!--name:料号名称-->
+        <!--enable:是否开启上传，True：开启。false：不开启-->
+        <PN enable="TRUE" name="FIGO44" />
+    </EEUPLOAD>
+    <DebugMode enable="TRUE">
+        <!--TRUE:调试模式开启,FALSE:关闭-->
+    </DebugMode>
+</ParameterList>

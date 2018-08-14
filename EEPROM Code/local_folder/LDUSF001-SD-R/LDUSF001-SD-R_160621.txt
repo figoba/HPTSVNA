@@ -1,0 +1,256 @@
+3	3	–≈œ¢√Ë ˆIdentifier
+4	4	Ext. Identifier
+23	23	Connector
+1	1	Tracsceiver
+0	0	Tracsceiver
+0	0	Tracsceiver
+0	0	Tracsceiver
+0	0	Tracsceiver
+4	4	Tracsceiver
+80	80	Tracsceiver
+F5	F5	Tracsceiver
+0	0	Encoding
+FF	FF	BR  Normal
+0	0	Rate Identifier
+0	0	SM Length (km)
+0	0	SM Length (100m)
+0	0	50um OM2 Length (10m)
+0	0	62.5um OM1 Length (10m)
+3	3	Cable Length(m)
+0	0	50um OM3 Length (10m)
+53	53	Vendor Name
+69	69	Vendor Name
+65	65	Vendor Name
+6D	6D	Vendor Name
+6F	6F	Vendor Name
+6E	6E	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+20	20	Vendor Name
+0B	0B	Tracsceiver
+0	0	vendor OUI
+1E	1E	vendor OUI
+62	62	vendor OUI
+53	53	Vendor P/N
+46	46	Vendor P/N
+50	50	Vendor P/N
+32	32	Vendor P/N
+38	38	Vendor P/N
+2D	2D	Vendor P/N
+32	32	Vendor P/N
+36	36	Vendor P/N
+2D	2D	Vendor P/N
+30	30	Vendor P/N
+33	33	Vendor P/N
+20	20	Vendor P/N
+20	20	Vendor P/N
+20	20	Vendor P/N
+20	20	Vendor P/N
+20	20	Vendor P/N
+30	30	Vendor Rev. (41:A; 42:B)
+30	30	Vendor Rev. (41:A; 43:B)
+30	30	Vendor Rev. (41:A; 44:B)
+30	30	Vendor Rev. (41:A; 45:B)
+1	1	Wave Length
+0	0	Wave Length
+0	0	Unallocated
+20	20	CC_Base
+0	0	Options
+0	0	Options
+67	67	BR Max.
+0	0	BR Min.
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Vendor SN
+20	20	Date Code
+20	20	Date Code
+20	20	Date Code
+20	20	Date Code
+20	20	Date Code
+20	20	Date Code
+30	30	Date Code
+30	30	Date Code
+0	0	Diagnostic Monitor Type
+0	0	Enhacned Options
+0	0	SFF-8472 Compliance DDM
+20	20	CC_EXT
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Vendor Specific
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved
+0	0	Reserved

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<general>
+<testResult>
+<testItem name="SDD21" result="OK"/> 
+<testItem name="SDD11" result="NG"/> 
+<testItem name="SCC11" result="OK"/> 
+<testItem name="SCD21-SDD21" result="OK"/> 
+<testItem name="ILD" result="OK"/> 
+<testItem name="TDD11" result="NG"/> 
+<testItem name="TDD22" result="NG"/> 
+<testItem name="NEXT" result="OK"/> 
+</testResult>
+<information>
+<inforItem name="application" value=""/> 
+<inforItem name="partDescription" value=",24AWG,5000mm"/> 
+<inforItem name="partNo" value="FIGO44"/> 
+<inforItem name="fixtureSerialNo" value="163190001"/> 
+<inforItem name="reportNo" value="HF-20180629A06"/> 
+<inforItem name="sampleNo" value="20180629A06"/> 
+<inforItem name="preparedBy" value="Wave Zhang"/> 
+<inforItem name="approvedBy" value="Chenhui Zeng"/> 
+<inforItem name="temprature" value="163190001"/> 
+<inforItem name="rHumidity" value="163190001"/> 
+<inforItem name="date" value="2018-06-29"/> 
+<inforItem name="tdrModel" value="1.TDR:Keysight PLTS IFFT"/> 
+<inforItem name="vnaModel" value="2.ENA:Keysight 20GHz E5071C"/> 
+</information>
+</general>
