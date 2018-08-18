@@ -71,6 +71,16 @@
 		<Item Name="SParam Limit Testing.vi" Type="VI" URL="../Spec/SParam Limit Testing.vi"/>
 		<Item Name="Graph Data Insert.vi" Type="VI" URL="../Measurement/Graph Data Insert.vi"/>
 		<Item Name="EEUpload.vi" Type="VI" URL="../EEUpload.vi"/>
+		<Item Name="40G RF Switch Matrix.vi" Type="VI" URL="../6509 Switch/40G RF Switch Matrix.vi"/>
+		<Item Name="40G RF Switch Tool(NI 6509).vi" Type="VI" URL="../6509 Switch/40G RF Switch Tool(NI 6509).vi"/>
+		<Item Name="_folderExistOrNot_UpData-demo_vna_wmg.vi" Type="VI" URL="../UploadData/_folderExistOrNot_UpData-demo_vna_wmg.vi"/>
+		<Item Name="_folderExistOrNot_UpData_vna_wmg.vi" Type="VI" URL="../UploadData/_folderExistOrNot_UpData_vna_wmg.vi"/>
+		<Item Name="读取.vi" Type="VI" URL="../../32port/subvi/计数模块/读取.vi"/>
+		<Item Name="addStatus.vi" Type="VI" URL="../../32port/subvi/common/addStatus.vi"/>
+		<Item Name="analyze.vi" Type="VI" URL="../core/analyze.vi"/>
+		<Item Name="switchQuene.vi" Type="VI" URL="../core/switchQuene.vi"/>
+		<Item Name="laucher.vi" Type="VI" URL="../laucher.vi"/>
+		<Item Name="未命名 6" Type="VI"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
@@ -361,6 +371,36 @@
 				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
 				<Item Name="ZLIB Compress Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Compress Directory__ogtk.vi"/>
 				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
+				<Item Name="Dictionary Object RefNum - Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum - Enum__ogtk.ctl"/>
+				<Item Name="Dictionary Object RefNum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum__ogtk.ctl"/>
+				<Item Name="Dictionary Object Ref Type__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Ref Type__ogtk.vi"/>
+				<Item Name="Dictionary Data__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data__ogtk.ctl"/>
+				<Item Name="Dictionary Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Default Data__ogtk.vi"/>
+				<Item Name="Dictionary Object Data Store__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Store__ogtk.vi"/>
+				<Item Name="Dictionary Object Data Store VI Ref Type__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Store VI Ref Type__ogtk.vi"/>
+				<Item Name="Dictionary Object Data Core Task Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object Data Core Task Enum__ogtk.ctl"/>
+				<Item Name="Dictionary Data Core__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data Core__ogtk.vi"/>
+				<Item Name="Dictionary Get Instance Semaphore RefNum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Instance Semaphore RefNum__ogtk.vi"/>
+				<Item Name="Dictionary Set Modified Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Set Modified Data__ogtk.vi"/>
+				<Item Name="Dictionary Get Data to Modify__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data to Modify__ogtk.vi"/>
+				<Item Name="Dictionary Data Store VI Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data Store VI Name__ogtk.vi"/>
+				<Item Name="Dictionary Open Object Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Open Object Reference__ogtk.vi"/>
+				<Item Name="Dictionary New__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary New__ogtk.vi"/>
+				<Item Name="Dictionary Create__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Create__ogtk.vi"/>
+				<Item Name="Dictionary Get Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data__ogtk.vi"/>
+				<Item Name="Dictionary Key Value Pair Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Key Value Pair Cluster__ogtk.ctl"/>
+				<Item Name="Dictionary Update (by value)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by value)__ogtk.vi"/>
+				<Item Name="Dictionary Update (by scalar value)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by scalar value)__ogtk.vi"/>
+				<Item Name="Dictionary Get Items__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Items__ogtk.vi"/>
+				<Item Name="Dictionary Update (by reference)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update (by reference)__ogtk.vi"/>
+				<Item Name="Dictionary Update__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Update__ogtk.vi"/>
+				<Item Name="Close Generic Object Refnum (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Scalar)__ogtk.vi"/>
+				<Item Name="Close Generic Object Refnum (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array)__ogtk.vi"/>
+				<Item Name="Close Generic Object Refnum (Array VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array VI)__ogtk.vi"/>
+				<Item Name="Close Generic Object Refnum (Scalar VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Scalar VI)__ogtk.vi"/>
+				<Item Name="Close Generic Object Refnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Content__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Content__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -425,7 +465,6 @@
 				<Item Name="LVPointDoubleTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointDoubleTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -681,16 +720,28 @@
 				<Item Name="DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi"/>
 				<Item Name="DAQmx Create Strain Rosette AI Channels (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Strain Rosette AI Channels (sub).vi"/>
 				<Item Name="Set Node Text Content.vi" Type="VI" URL="/&lt;vilib&gt;/xml/Set Node Text Content.vi"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Release Semaphore_71.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore_71.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
+				<Item Name="Semaphore Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB Action.ctl"/>
+				<Item Name="Semaphore Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB.vi"/>
+				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 			</Item>
 			<Item Name="(0,1)to(true,false) by data.vi" Type="VI" URL="../6509 Switch/(0,1)to(true,false) by data.vi"/>
 			<Item Name="(0,1)to(true,false) no window.vi" Type="VI" URL="../6509 Switch/(0,1)to(true,false) no window.vi"/>
 			<Item Name="3boolsToString.vi" Type="VI" URL="../EEPROm模块子vi/3boolsToString.vi"/>
-			<Item Name="40G RF Switch Tool(NI 6509).vi" Type="VI" URL="../6509 Switch/40G RF Switch Tool(NI 6509).vi"/>
 			<Item Name="6509 simple.vi" Type="VI" URL="../6509 Switch/6509 simple.vi"/>
 			<Item Name="_dealWithIndex_EEPROM_vna_wmg.vi" Type="VI" URL="../EEPROM/_dealWithIndex_EEPROM_vna_wmg.vi"/>
 			<Item Name="_deleEmptyElementOfChart.vi" Type="VI" URL="../EEPROM/_deleEmptyElementOfChart.vi"/>
-			<Item Name="_folderExistOrNot_UpData-demo_vna_wmg.vi" Type="VI" URL="../UploadData/_folderExistOrNot_UpData-demo_vna_wmg.vi"/>
-			<Item Name="_folderExistOrNot_UpData_vna_wmg.vi" Type="VI" URL="../UploadData/_folderExistOrNot_UpData_vna_wmg.vi"/>
 			<Item Name="_markSFP+&amp;QSFP+_EEPROM_vna_wmg.vi" Type="VI" URL="../EEPROM/_markSFP+&amp;QSFP+_EEPROM_vna_wmg.vi"/>
 			<Item Name="_ReadExceldata_EEPROM_vna_jet.vi" Type="VI" URL="../EEPROM/_ReadExceldata_EEPROM_vna_jet.vi"/>
 			<Item Name="_ReadExceldata_vna_jet.vi" Type="VI" URL="../Label/_ReadExceldata_vna_jet.vi"/>
@@ -795,19 +846,16 @@
 			<Item Name="Skew Data Process.vi" Type="VI" URL="../Measurement/Skew Data Process.vi"/>
 			<Item Name="SN Report Number Increase.vi" Type="VI" URL="../Measurement/SN Report Number Increase.vi"/>
 			<Item Name="spec.vi" Type="VI" URL="../DSA8300/spec.vi"/>
-			<Item Name="sql - 读取数据.vi" Type="VI" URL="../计数模块/sql - 读取数据.vi"/>
 			<Item Name="sql-delete.vi" Type="VI" URL="../Project/sql-delete.vi"/>
 			<Item Name="sql-readinfo_check.vi" Type="VI" URL="../CheckResultBeforeTest/sql-readinfo_check.vi"/>
 			<Item Name="sql-readinfo_vfixture.vi" Type="VI" URL="../Project/sql-readinfo_vfixture.vi"/>
 			<Item Name="sql-readinfo_vproject.vi" Type="VI" URL="../Project/sql-readinfo_vproject.vi"/>
 			<Item Name="sql-writeinfo_vproject.vi" Type="VI" URL="../Project/sql-writeinfo_vproject.vi"/>
-			<Item Name="sqlconfig.vi" Type="VI" URL="../计数模块/sqlconfig.vi"/>
 			<Item Name="SQLErrorInfo.vi" Type="VI" URL="../Project/SQLErrorInfo.vi"/>
 			<Item Name="stringConvertToDate2.vi" Type="VI" URL="../XML Files/stringConvertToDate2.vi"/>
 			<Item Name="stringTofloat.vi" Type="VI" URL="../S4P/stringTofloat.vi"/>
 			<Item Name="SubMain2_ChartEEPROM_vna_wmg.vi" Type="VI" URL="../EEPROM/SubMain2_ChartEEPROM_vna_wmg.vi"/>
 			<Item Name="subVI3_IMP_checkBeforeTest_wmg.vi" Type="VI" URL="../CheckResultBeforeTest/subVI3_IMP_checkBeforeTest_wmg.vi"/>
-			<Item Name="subVI3_MAIN_checkBeforeTest_wmg.vi" Type="VI" URL="../CheckResultBeforeTest/subVI3_MAIN_checkBeforeTest_wmg.vi"/>
 			<Item Name="Summary Generating.vi" Type="VI" URL="../Summary Generating.vi"/>
 			<Item Name="swrDateValidOrNot.vi" Type="VI" URL="../EEPROm模块子vi/swrDateValidOrNot.vi"/>
 			<Item Name="Tap Title Modflication.vi" Type="VI" URL="../Tap Title Modflication.vi"/>
@@ -850,7 +898,6 @@
 			<Item Name="FileUsingCheck.dll" Type="Document" URL="../Data/FileUsingCheck.dll"/>
 			<Item Name="Interop.BarTender.dll" Type="Document" URL="../Data/Interop.BarTender.dll"/>
 			<Item Name="40G MCU Switch Control.vi" Type="VI" URL="../6509 Switch/40G MCU Switch Control.vi"/>
-			<Item Name="40G RF Switch Matrix.vi" Type="VI" URL="../6509 Switch/40G RF Switch Matrix.vi"/>
 			<Item Name="RF Switch tool by MCU HuaWei.vi" Type="VI" URL="../6509 Switch/RF Switch tool by MCU HuaWei.vi"/>
 			<Item Name="MCU Switch ControlHuaWei.vi" Type="VI" URL="../6509 Switch/MCU Switch ControlHuaWei.vi"/>
 			<Item Name="System" Type="VI" URL="System">
@@ -878,7 +925,12 @@
 			<Item Name="snType(SNXL).vi" Type="VI" URL="../EEPROm模块子vi/snType(SNXL).vi"/>
 			<Item Name="readLossSpecFromExcel.vi" Type="VI" URL="../Project/readLossSpecFromExcel.vi"/>
 			<Item Name="offsetOverSizeJudge.vi" Type="VI" URL="../Project/offsetOverSizeJudge.vi"/>
-			<Item Name="visarc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2011/resource/visarc"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="sql - 读取数据.vi" Type="VI" URL="../计数模块/sql - 读取数据.vi"/>
+			<Item Name="sqlconfig.vi" Type="VI" URL="../计数模块/sqlconfig.vi"/>
+			<Item Name="32p_analyze.dll" Type="Document" URL="../Data/32p_analyze.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="SMain" Type="EXE">
@@ -901,52 +953,58 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../2. HPTS_VNA_Rev2.5 联想标签/builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{537A9C4A-9579-4DF5-88D3-39ADCE7108A7}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{F83DADE6-9559-4240-A4D8-DFE48C417147}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{8310A9DB-2087-409B-B0CF-60A4FC7950B7}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{C473599C-F526-4398-923C-DC8F0BF6F7F2}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{4F62432B-EB76-4CAA-8AD0-97AD68ED79D0}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{796436A3-532F-4BB2-8FD7-08911A0BD332}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{D028AB69-739C-4533-BED6-D9FFC5B0F4EC}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{1CE64CF9-6D30-466B-9F7C-ED96607C1A4E}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{741836D7-B4F6-45DC-BD59-EE351655070E}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{FBE17DED-DC53-46DF-9DA8-6D9B384C8612}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{91108CC7-2D75-4C99-9238-C38A7620501A}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{C15BCCBD-8825-4A95-BBC6-43C978292583}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{4FDE71AC-863C-4BAD-9CD4-255C4E68C76C}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{FF6532A8-8372-439B-A8CA-26A33BA98128}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{31287F0E-5F22-49DC-B28D-C174FE7D940D}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{D74A04FC-D335-40E0-84D7-F3B2835268F6}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{14F504FA-9282-4726-A98C-B522774A2028}</Property>
-				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
-				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{63D95403-2B04-43A9-B345-0CF5EFAEFDC7}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{675F28AC-9494-401C-A1F6-1D5AEB4161EC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{C2E96AC2-2BF2-49A2-95C4-F4E65E61A8A1}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{FCC6982F-589B-4785-A876-7DB3B782F8F9}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{C67845D4-5515-422C-878B-C05E4EEDEB25}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{10594682-A24E-49AF-91A3-413A15A3A8DA}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{41FF65D5-6CD6-4FE8-A7C1-992BB0E20C5F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{C9902F1F-4E8F-4C37-8F59-0B11516B86E4}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{52C90A65-55D4-4CF7-AE9C-C17C88775E11}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{848EB81F-AA00-4C31-A2B1-3EED6F1A3486}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{2F52FB84-9EA9-4BC1-8F70-3A0F53E2B5B8}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{55DDCCAB-C231-4E12-B5C9-D064E759520F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{9EA3343B-5D9D-4059-92A0-B931FADFDBDC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{073B425D-EA21-402F-9E49-E691E5DE4786}</Property>
-				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
-				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">VNAAutomaticTestTool</Property>
-				<Property Name="Exe_actXServerName" Type="Str">VNAAutomaticTestTool</Property>
-				<Property Name="Exe_actXServerNameGUID" Type="Str">{3AACD968-3C06-4D5B-B99B-76374BC95611}</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/Tdr_VNA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{655041F9-C316-4B4C-9C31-574BAC3E0CCC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9C979FC5-F8D1-4D75-8F1F-F982861D9378}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/SMain.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/New Project.vi</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/Export_TimeDomain_Data.vi</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/Detailed Project Information.vi</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/SParam Limit Testing.vi</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/Graph Data Insert.vi</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/EEUpload.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/laucher.vi</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/acquireIndexClosetoCertainFrequency.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/readFromTXTForXMLFiles.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/Tdr_VNA.ico</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/资讯重打标签.vi</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/ILD_15%.vi</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/Sparameter Testing.vi</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/S4P Tool.vi</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/xml generate for SFP+_VNA.vi</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 				<Property Name="TgtF_companyName" Type="Str">L</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SMain</Property>
 				<Property Name="TgtF_fileVersion.build" Type="Int">8</Property>

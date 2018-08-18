@@ -150,4 +150,13 @@
     <DebugMode enable="TRUE">
         <!--TRUE:调试模式开启,FALSE:关闭-->
     </DebugMode>
+    <LocalUsers>
+        <!--name:用户名-->
+        <!--enable:用户是否有效，TRUE：有效。FALSE：无效，一定要大写-->
+        <User enable="TRUE" name="admin" psw="PSW" />
+    </LocalUsers>
+    <Factorys>
+        <Factory enable="TRUE" name="清溪" />
+        <Factory enable="TRUE" name="松山湖" />
+    </Factorys>
 </ParameterList>

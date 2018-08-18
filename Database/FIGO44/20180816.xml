@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestSN>
+    <PassedSN />
+    <FailedSN>
+        <SN Date="2018/8/16 11:15:22" Value="444" />
+        <SN Date="2018/8/16 11:20:57" Value="6677u" />
+    </FailedSN>
+</TestSN>

@@ -15,13 +15,13 @@
 <inforItem name="partDescription" value=",24AWG,5000mm"/> 
 <inforItem name="partNo" value="FIGO44"/> 
 <inforItem name="fixtureSerialNo" value="163190001"/> 
-<inforItem name="reportNo" value="HF-20180629A06"/> 
-<inforItem name="sampleNo" value="20180629A06"/> 
+<inforItem name="reportNo" value="HF-2018081833e"/> 
+<inforItem name="sampleNo" value="2018081833e"/> 
 <inforItem name="preparedBy" value="Wave Zhang"/> 
 <inforItem name="approvedBy" value="Chenhui Zeng"/> 
 <inforItem name="temprature" value="163190001"/> 
 <inforItem name="rHumidity" value="163190001"/> 
-<inforItem name="date" value="2018-06-29"/> 
+<inforItem name="date" value="2018-08-18"/> 
 <inforItem name="tdrModel" value="1.TDR:Keysight PLTS IFFT"/> 
 <inforItem name="vnaModel" value="2.ENA:Keysight 20GHz E5071C"/> 
 </information>
